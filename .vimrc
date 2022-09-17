@@ -65,7 +65,8 @@ set completeopt=menu,menuone
 " ctags --fields=+iaS --extra=+q -R -f ~/.vim/systags /usr/include /usr/local/include
 
 "
-set tags=.tags;,tags
+set tags=.tags;
+set tags+=tags;
 set autochdir
 
 noremap <c-z> <NOP>
